@@ -1,18 +1,21 @@
-# Introduction to basic HTML
+# Introduction to HTML
 
-Practice Git CLI, basic HTML elements and build short introduction about yourself.
+This project uses basis HTML elements to write short introduction about myself. Check it [here](https://hung1503.github.io/fs13-basic-html/)
 
-## Requirement
+## Table of content
 
-Edit the codes in `index.html` and create a webpage to introduce yourself similar to
-[this sample](https://integrify-finland.github.io/bof-introduction-sample/)
+- Technologies
+- Project Stucture
+- Getting Started
 
-1. Make use of different tags: headings, paragraphs, link, italic, ordered list, unordered list,table, form
-2. Check out more tags that might be helpful: address, section, article, audio
-3. Make sure you do not leave unnecessary while space in your codes
-Styling is not needed for this assignment
-4. Deploy your code base into any hosting platform of your choice. Rewrite README file to describe your project with few more details.
-![README example](readme-example.png)
+## Technogoies
 
-## Result
-![result](result.png)
+- HTML5
+
+## Project Structure
+
+![projects structure](project-stucture.png)
+
+## Getting Started
+
+Clone the repository from Github by using command: `git clone`

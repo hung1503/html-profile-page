@@ -1,93 +1,109 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Information Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    </head>
-    
-    <body>
-        <header>
-            <nav>
-                <a href="#intro">Luan Le</a>
-                 | 
-                <a href="#skills">Skills</a>
-                 | 
-                <a href="#hobbies">Hobbies</a>
-            </nav>
-        </header>
-
-        <div>            
-            <h1 id="#intro">Luan Le</h1>
-            <hr>
-            <i>This project uses basic HTML elements to write short introduction about myself.</i>
-            <p>I'm a full-stack web developer from Viet Nam and currently studying and working in Finland. I have developed few projects, most of them are for the study in my university. I enjoy coding and the challenge of learning something new everyday. When not online, I love hanging out with my friend, or traveling and photographing the landscape. I also enjoy reading books when I'm free.</p>
-        </div>
-
-        <hr>
-
-        <div>
-            <h2 id="skills">Skills</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Me |</a>
+        <a href="#tech-stack"> Tech Stack |</a>
+        <a href="#hobbies"> Hobbies |</a>
+        <a href="#askme"> Ask Me</a>
+      </nav>
+      <div id="intro">
+        <h1>Hung Nguyen</h1>
+        <p>Full Stack Developer</p>
+        <a href="mailto:hung.nguyen22@integrify.io"
+          >hung.nguyen22@integrify.io</a
+        ><br />
+        <a href="">+358 123 456 789</a><br />
+        <i>Vaasa, Finland</i>
+        <p>
+          I'm attending integrify to learn new things ,sharpen my skills and
+          seek job opportunities
+        </p>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <ol>
+          <li>
+            Front-end
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Java</li>
-                <li>C#</li>
-                <li>MySQL</li>
-                <li>MariaDB</li>
-                <li>InVision</li>
-                <li>WPF</li>
+              HTML
             </ul>
-        </div>
-
-        <hr>
-
-        <div>
-            <h3 id="hobbies">Hobbies</h3>
-            <p>Beside my travel hobbies, whenever I have free time and I want to relax, I always watch sport matches (if there is any match belongs to one of my favourite sport at that moment), or play video games. I also love reading books and listening to music.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sports</th>
-                        <th>Video Games</th>
-                        <th>Books</th>
-                        <th>Music</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Football</td>
-                        <td>God of War</td>
-                        <td>Mystery</td>
-                        <td>Hip Hop</td>
-                    </tr>
-                    <tr>
-                        <td>Basketball</td>
-                        <td>FIFA</td>
-                        <td>Fantasy</td>
-                        <td>RnB</td>
-                    </tr>
-                    <tr>
-                        <td>Tennis</td>
-                        <td>Assassin's Creed series</td>
-                        <td>Novel</td>
-                        <td>Country</td>
-                    </tr>
-                    <tr>
-                        <td>eSports</td>
-                        <td>GTA series</td>
-                        <td>Detective</td>
-                        <td>Blue</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <hr>
-
-        <footer>&copy; Made few minutes ago</footer>
-    </body>
+            <ul>
+              JavaScript
+            </ul>
+            <ul>
+              CSS/styled-component
+            </ul>
+            <ul>
+              React
+            </ul>
+          </li>
+          <li>
+            Back-end
+            <ul>
+              NodeJS
+            </ul>
+            <ul>
+              ExpressJS
+            </ul>
+            <ul>
+              MongoDB
+            </ul>
+          </li>
+          <li>Github</li>
+          <li>Other programming languages: PHP, C, Java</li>
+        </ol>
+      </section>
+      <hr />
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Playing video games</li>
+          <li>Reading books</li>
+          <li>Drawing(but I'm bad at it)</li>
+        </ul>
+      </section>
+      <hr />
+      <section id="askme">
+        <h2>Ask me</h2>
+        <form
+          action="mailto:hung.nguyen22@integrify.io"
+          method="POST"
+          enctype="text/plain"
+          name="askme"
+        >
+          <div>
+            <label for="name">Name</label><br />
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Message</label><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer>Created by Hung Nguyen!</footer>
+  </body>
 </html>
